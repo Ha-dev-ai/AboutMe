@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ABOUT ME</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   </head>
+<body>
+   <!--navigation-->
+   <header>
+      <nav class="navbar">
+         <div class="logo">
+            <img src="header-logo.png" alt="">
+         </div>
+         <div class="menu-icon" id="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links" id="nav-links">
+                <div class="close-btn" id="close-btn" onclick="closeMenu()">×</div>
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#services" onclick="closeMenu()">Services</a></li>
+                <li><a href="#" onclick="closeMenu()">Portfolio</a></li>
+                <li><a href="#" onclick="closeMenu()">Resume</a></li>
+                <li><a href="#" onclick="closeMenu()">Contact</a></li>
+            </ul>
+      </nav>
+  </header>
+   <!--Home-->
+   <section class="Home">
+      <a name="home"></a>
+      <div class="ro">
+         <div class="container">   
+            <div class="col text ">
+               <span class="greetings">Hello, Welcome</span>
+               <h1 class="home-hed">I'm Ameer<br>Hamza</h1>
+               <p class="home-para">There are many variations of passages<br> of Mr.Hamza available, but the majority<br> havesuffered alteration in some form, by<br> injected humour.
+
+               </p>
+               <button class="prm-btn">Contact us</button> 
+            </div>
+            <div class="col">
+               <img class="profile2 im-responsive " src="square.png" alt="">
+            </div>
+            <div class="col">
+               <img class="profile1 im-responsive "src="img2.jpg" alt="">
+            </div> 
+         </div>         
+      </div>         
+   </section>
+   <!--About us-->
+   <section class="About"> 
+      <a name="about"></a>
+      <div class="ro">
+         <div class="container">  
+            <div class="col ">
+              <img class="profile4 im-responsive " src="square.png" alt="">
+             
+              <img class="profile3 im-responsive "src="img1.jpg" alt="">
+            </div> 
+             <div class="col tex ">
+               <h1 class="abt-hed" >About <span class="abt-hed2">Me</span></h1>
+               <p class="abt-para">There are many variations of passages of Mr.hamza available, but<br> the majority havesuffered alteration in some form, by injected humour,
+                  <br><br>
+                  Passages of Mr.Hamza available, but the majority havesuffered alteration in some form, by injected humour, </p>
+                  <button class="sec-btn">Contact us</button>
+             </div>
+         </div> 
+
+      </div>
+   </section>
+   <!--Services-->
+   <section class="services">
+      <a name="services"></a>
+      <div class="container ">
+         <div class=" tex col">
+            <h1 class="srv-hed">My <span class="srv-hed2 ">Services</span></h1>
+            <p class="srv-para ">There are many variations of passages of Mr.Hamza<br> available, but the majority havesuffered alteration in some<br> form, by injected humour,</p>
+         </div>
+      </div>
+      <div class="container-wrap ">   
+         <div class="card1 col">
+            <i class="fa-solid fa-code-branch fa-beat digmr-logo"></i>
+            <h1>Digital Marketing</h1>
+            <p>There are many variations of passages <br>of Mr.Hamza available,<br> but the majority havesuffered <br>alteration in some</p>
+         </div>
+         <div class="card2 col">
+            <i class="fa-solid fa-file-code fa-beat webd-logo"></i>
+            <h1>Web Devlopment</h1>
+            <p>There are many variations of passages <br>of Mr.Hamza available,<br> but the majority havesuffered <br>alteration in some</p>
+         </div>
+         <div class="card3 col">
+            <i class="fa fa-code fa-beat coding-logo"></i>
+            <h1>Coding</h1>
+            <p>There are many variations of passages <br>of Mr.Hamza available,<br> but the majority havesuffered <br>alteration in some</p>
+         </div>
+      </div>
+   </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
